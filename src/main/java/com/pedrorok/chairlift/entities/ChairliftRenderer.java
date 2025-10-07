@@ -2,6 +2,7 @@ package com.pedrorok.chairlift.entities;
 
 import com.mojang.blaze3d.vertex.PoseStack;
 import com.mojang.blaze3d.vertex.VertexConsumer;
+import com.pedrorok.chairlift.ChairliftMod;
 import net.minecraft.client.model.geom.ModelPart;
 import net.minecraft.client.model.geom.PartPose;
 import net.minecraft.client.model.geom.builders.*;
@@ -20,7 +21,7 @@ import org.jetbrains.annotations.NotNull;
 public class ChairliftRenderer extends EntityRenderer<ChairLiftEntity> {
 
 	private static final ResourceLocation TEXTURE =
-			ResourceLocation.fromNamespaceAndPath("chairlift", "textures/entity/chairlift.png");
+			ResourceLocation.fromNamespaceAndPath(ChairliftMod.MOD_ID, "textures/entity/chairlift.png");
 
 	private final ModelPart base;
 	private final ModelPart back;
