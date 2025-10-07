@@ -1,0 +1,35 @@
+{
+	"format_version": "1.9.0",
+	"credit": "Made with Blockbench",
+	"texture_size": [64, 64],
+	"textures": {
+		"0": "create_chairlift:entity/chairlift",
+		"particle": "create_chairlift:entity/chairlift"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 2, 16],
+			"faces": {
+				"north": {"uv": [8, 0, 12, 0.5], "texture": "#0"},
+				"east": {"uv": [8, 0.5, 12, 1], "texture": "#0"},
+				"south": {"uv": [8, 1, 12, 1.5], "texture": "#0"},
+				"west": {"uv": [8, 1.5, 12, 2], "texture": "#0"},
+				"up": {"uv": [4, 4, 0, 0], "texture": "#0"},
+				"down": {"uv": [4, 4, 0, 8], "texture": "#0"}
+			}
+		},
+		{
+			"from": [0, 2, 14],
+			"to": [16, 17, 16],
+			"faces": {
+				"north": {"uv": [4, 0, 8, 3.75], "texture": "#0"},
+				"east": {"uv": [8, 2, 8.5, 5.75], "texture": "#0"},
+				"south": {"uv": [4, 3.75, 8, 7.5], "texture": "#0"},
+				"west": {"uv": [4, 8, 4.5, 11.75], "texture": "#0"},
+				"up": {"uv": [8, 8, 4, 7.5], "texture": "#0"},
+				"down": {"uv": [4, 8, 0, 8.5], "texture": "#0"}
+			}
+		}
+	]
+}
